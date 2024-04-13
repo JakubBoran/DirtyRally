@@ -21,8 +21,8 @@ public class Particles : MonoBehaviour
     void Update()
     {    way = Input.GetAxis("Vertical");
     
-         if(SceneManager.GetActiveScene().name.StartsWith("Level1"))
-         {     if(way == 1 ) 
+ if (!SceneManager.GetActiveScene().name.StartsWith("Tutorial"))
+         {    if(way == 1 ) 
             {   
              L1Particle1.Play(true);
             L1Particle2.Play(true);

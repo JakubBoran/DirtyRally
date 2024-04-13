@@ -10,14 +10,15 @@ public class InstuctorL1 : MonoBehaviour
     void Start()
     {
          checkpointlist  = GameObject.FindObjectOfType<CheckpointList>();
-         listOfInstructor.Add("Instructor: 30 Km/H");
-             listOfInstructor.Add("Instructor: 20 Km/H");
-                listOfInstructor.Add("Instructor: 10 Km/H");
-                 listOfInstructor.Add("Instructor: 40 Km/H");
+          listOfInstructor.Add("");
+         listOfInstructor.Add("Instructor: 30 km/h");
+             listOfInstructor.Add("Instructor: 20 km/h");
+                listOfInstructor.Add("Instructor: 10 km/h");
+                 listOfInstructor.Add("Instructor: 40 km/h");
     }
 
     void Update()
     {
-           InstructorText.text = listOfInstructor[checkpointlist.currentCheckpoint - 1];
+           InstructorText.text = listOfInstructor[checkpointlist.currentCheckpoint];
     }
 }

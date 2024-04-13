@@ -14,4 +14,43 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level1.unity
     guid: 4dd6599c31db7954d82d320ce5a4243f
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: 10124f9742980b74bb699a88b383681c
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: e972f3a98c98a3f419136c5a3d0e55c0
+  - enabled: 1
+    path: Assets/Scenes/Level1M.unity
+    guid: 611bbaf7bf68ff24eba9ecbc73e8221d
+  - enabled: 1
+    path: Assets/Scenes/Level2M.unity
+    guid: f17bfe9022e9320418e4e10cf0bd5ab5
+  - enabled: 1
+    path: Assets/Scenes/Level3M.unity
+    guid: 3a005096fed019b48a04cc26d2327b79
+  - enabled: 1
+    path: Assets/Scenes/Level1M 1.unity
+    guid: d2fdc4d7cf422b3499cc429af49ab2c5
+  - enabled: 1
+    path: Assets/Scenes/Level2M 1.unity
+    guid: 4bcffed5853e44f43b0aca48d67042de
+  - enabled: 1
+    path: Assets/Scenes/Level3M 1.unity
+    guid: e8b275170ef902a4d91efad0b5a78a8c
+  - enabled: 1
+    path: Assets/Scenes/Stats.unity
+    guid: 4ca3fdb506f7c1848960e3bc0a9f0c21
+  - enabled: 1
+    path: Assets/Scenes/TLevel1.unity
+    guid: 868067e4ee355fb42a1aa0e64aebfe0f
+  - enabled: 1
+    path: Assets/Scenes/TLevel2.unity
+    guid: 2e43e169f4e892547a0afaa82da704d0
+  - enabled: 1
+    path: Assets/Scenes/TLevel3.unity
+    guid: afd002d16c84c464983d6367c9fc88e4
+  - enabled: 1
+    path: Assets/Scenes/TournamentEnd.unity
+    guid: 33b737c30de30a44caefe86521a9b72d
   m_configObjects: {}

@@ -21,16 +21,16 @@ public class Checkpoint : MonoBehaviour
     }
      void OnTriggerEnter(Collider col)
     {
-          if (col.gameObject.name == "Auto")
+          if (col.gameObject.name == "Auto")       //<------ jestli se checkpointu dotkl hráč
             {
               checkpointlist.currentCheckpoint++;
               Vector3 checkpointPosition = transform.position;
-              checkpointlist.listOfCheckpoints.Add(checkpointPosition);
+              checkpointlist.listOfCheckpoints.Add(checkpointPosition);     //<------ zapíše se lokace checkpointu
                     
                      Quaternion checkpointRotation = transform.rotation;
-                checkpointlist.listOfCheckpointRotation.Add(checkpointRotation);
-              collider.enabled = false;
-                 checktext.text = checkpointlist.currentCheckpoint+  " / " + checkpointlist.maxCheckpoint;
+                checkpointlist.listOfCheckpointRotation.Add(checkpointRotation);     //<------ zapíše se rotace checkpointu
+              collider.enabled = false;   //<------ vypne se kolize pro již projetý checkpoint
+                 checktext.text = checkpointlist.currentCheckpoint+  " / " + checkpointlist.maxCheckpoint; //<---- aktualizace uživatelského rozhraní
             }
     
     

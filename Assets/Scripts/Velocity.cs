@@ -7,6 +7,7 @@ public class Velocity : MonoBehaviour
     private Rigidbody rb;
       public TextMeshProUGUI speedText;
         public float speed; 
+        public int maxSpeed;
     void Start()
     {
       
@@ -20,5 +21,10 @@ public class Velocity : MonoBehaviour
       
              speed = velocity.magnitude * 2f;          
              speedText.text = "" + (int)speed;
+            if(speed > maxSpeed)   {
+                    maxSpeed = (int)speed;
+             }
+         
+          
     }
 }
