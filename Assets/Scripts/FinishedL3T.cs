@@ -54,7 +54,7 @@ public class FinishL3T : MonoBehaviour
 
                      
                  }                                                      //
-             else     if(Timer.tournamentSeconds < 31 && Timer.tournamentMinutes < 4 )      //
+             else     if(Timer.tournamentSeconds < 61 && Timer.tournamentMinutes < 4 )      //
                  {                            //
                    Scenes.TearnedSilver = true;   
                      LoadTtime.golden = false;
@@ -63,7 +63,7 @@ public class FinishL3T : MonoBehaviour
                                
                   }                                                     //
                                                                         //
-                   else if(Timer.tournamentSeconds < 61 && Timer.tournamentMinutes< 4 )    //
+                   else if(Timer.tournamentSeconds < 61 && Timer.tournamentMinutes< 5 )    //
                  {                            //
                    Scenes.TearnedBronze = true;       
                      LoadTtime.golden = false;

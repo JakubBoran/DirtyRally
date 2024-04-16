@@ -129,12 +129,12 @@ public static int minutesL2 = 100;
 
   private void LoadL1MP()
   {
-    if(FinishedL1MP == true)
+    if(FinishedL1MP == true)  //<---- jestli oba hráči dojeli 
     {
            L1TextP1 = GameObject.Find("TextMwin1P1").GetComponent<TextMeshProUGUI>();
            L1TextP2 = GameObject.Find("TextMwin1P2").GetComponent<TextMeshProUGUI>();
 
-           L1TextP1.text = FinalminutesL1P1 + ":" + FinalsecondsL1P1;
+           L1TextP1.text = FinalminutesL1P1 + ":" + FinalsecondsL1P1; 
            L1TextP2.text = minutesL1P2 + ":" + secondsL1P2;
     }
   }

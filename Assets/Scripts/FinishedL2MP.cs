@@ -25,7 +25,7 @@ public class FinishedL2MP : MonoBehaviour
           if (col.gameObject.name == "Auto")          //<------ jestli se cíle dotkl hráč
             {          
              
-                 Scenes.minutesL2P1 = timer.minutes;
+                 Scenes.minutesL2P1 = timer.minutes;         //<----- čas hráče 1 se zapíše
                   Scenes.secondsL2P1 = timer.seconds;  
                      Stats.sceneList.Add("Level2 - P1");
              
